@@ -156,7 +156,7 @@ body {
   width: 484px;
   height: 84px;
   left: 160px;
-  top: 572px; 
+  top: 572px;
 }
 
 /* Manu animation */
@@ -245,10 +245,10 @@ body {
     height: 8px;
     left: 536px;
     top: 62px;
-
   }
+
   .warapper .desktop-nav .div-logo .logo {
-   background-image: url(./images/image_geometry_corner.png);
-   position: absolute;
+    background-image: url(./images/image_geometry_corner.png);
+    position: absolute;
   }
 }
