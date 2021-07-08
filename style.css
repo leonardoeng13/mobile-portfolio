@@ -1,0 +1,160 @@
+/* Colors */
+
+:root {
+  --color1: #1A2236;
+  --color2: #FFFFFF;
+  --color3: #98DEDE;
+  --color4: #E45865;
+  --color5: #7D7C84;
+  --color6: #92DCDC;
+  --color8: #1A2236;
+  --color9: #1C528A;
+  --color10: #E0E0E0;
+  --color11: #1A2236;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display";
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/* Header */
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 0.5px 0px #DDDFE6;
+  position: fixed;
+  z-index: 200px;
+  width: calc(1440px - 200px);
+  top: 38px;
+}
+
+.desktop-nav .menu-items {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  width: 24px;
+  height: 369px;
+  left: 536px;
+  top: 62px;
+}
+
+.desktop-nav .menu-items li {
+  margin: 0 20px;
+  font-family: "Poppins";
+}
+
+.desktop-nav.menu-items li a {
+  text-decoration: none;
+  color: var(--color11);
+  font-size: 16px;
+  position: relative;
+}
+
+.desktop-nav .menu-items li a.active::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: var(--color11);
+  left: 59px;
+  bottom: 343px;
+}
+/* Hero Container */
+.hero-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-container .left {
+  font-size: 110px;
+  position: absolute;
+}
+
+.hero-container .btn {
+  position: absolute;
+  background: var(--color11);
+  color: white;
+  left: 11.11%;
+  right: 71.25%;
+  top: 74.74%;
+  bottom: 83.82%;
+  text-align: center;
+
+}
+
+.hero-container .right {
+  position: absolute;
+  height: 877px;
+  width: 702px;
+  left: 738px;
+  top: 140px;
+  border-radius: 0px;
+
+}
+
+.hero-container .image_dots {
+  position: absolute;
+  height: 175px;
+  width: 175.00001525878906px;
+  left: 563px;
+  top: 802px;
+  border-radius: 0px;
+  
+
+}
+
+.hero-container .paragraph {
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  position: absolute;
+  width: 484px;
+  height: 84px;
+  left: 160px;
+  top: 572px; 
+  /* position: static; */
+}
+
+.hero-container .left h1 {
+  color: #1A2236; 
+  font-family:'Playfair Display'; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+/* .hero-container .left p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  position: static;
+  width: 484px;
+  height: 84px;
+  left: 160px;
+  top: 572px; 
+} */
