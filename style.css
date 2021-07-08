@@ -35,9 +35,9 @@ body {
   align-items: center;
   width: 1440px;
   height: 100px;
-  left: 0px;
+  left: 0;
   background: #fff;
-  box-shadow: 0px 0.5px 0px #dddfe6;
+  box-shadow: 0 0.5px 0 #dddfe6;
   position: fixed;
   z-index: 200;
   width: calc(1440px - 200px);
@@ -109,7 +109,7 @@ body {
   width: 702px;
   left: 738px;
   top: 140px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .hero-container .image_dots {
@@ -118,7 +118,7 @@ body {
   width: 175.00001525878906px;
   left: 563px;
   top: 802px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .hero-container .paragraph {
