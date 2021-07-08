@@ -183,12 +183,6 @@ body {
   }
 }
 
-/* .hero-container .left h1 {
-  animation: crossScreen 800ms forwards;
-  animation-delay: 800ms;
-  opacity: 0;
-} */
-
 @keyframes crossScreen {
   to {
     opacity: 1;
