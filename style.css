@@ -41,6 +41,8 @@ body {
   position: fixed;
   z-index: 200;
   top: 38px;
+  animation: fadeDown 1000ms forwards;
+  opacity: 0;
 }
 
 .desktop-nav .menu-items {
@@ -152,12 +154,12 @@ body {
   top: 572px;
 }
 
-/* Manu animation */
+/* Menu animation */
 
-.desktop-nav {
+/* .desktop-nav {
   animation: fadeDown 1000ms forwards;
   opacity: 0;
-}
+} */
 
 @keyframes fadeDown {
   from {
