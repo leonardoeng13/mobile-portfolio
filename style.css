@@ -44,6 +44,10 @@ body {
   top: 38px;
 }
 
+/* .desktop-nav .div-logo .logo {
+  display: none;
+} */
+
 .desktop-nav .menu-items {
   display: flex;
   list-style: none;
@@ -83,6 +87,14 @@ body {
   justify-content: space-between;
 }
 
+/* .hero-bg {
+display: none;
+}
+
+.image_dots {
+  display: none;
+} */
+
 .hero-container .left {
   font-size: 110px;
   position: absolute;
@@ -91,13 +103,12 @@ body {
 .hero-container .btn {
   position: absolute;
   background: var(--color11);
-  color: white;
+  /* color: white; */
   left: 11.11%;
   right: 71.25%;
   top: 74.74%;
   bottom: 83.82%;
   text-align: center;
-
 }
 
 .hero-container .right {
@@ -117,8 +128,6 @@ body {
   left: 563px;
   top: 802px;
   border-radius: 0px;
-  
-
 }
 
 .hero-container .paragraph {
@@ -145,7 +154,7 @@ body {
   line-height: 100%;
 }
 
-/* .hero-container .left p {
+.hero-container .left p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: normal;
@@ -157,4 +166,100 @@ body {
   height: 84px;
   left: 160px;
   top: 572px; 
-} */
+}
+/* Manu animation */
+
+.desktop-nav {
+  animation: fadeDown 1000ms forwards;
+  opacity: 0;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-container .left h3 {
+  animation: fadeIn 800ms forwards;
+  animation-delay: 400ms;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-container .left h1 {
+  animation: crossScreen 800ms forwards;
+  animation-delay: 800ms;
+  opacity: 0;
+}
+
+@keyframes crossScreen {
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-container .paragraph p {
+  animation: paragraph1 800ms forwards;
+  animation-delay: 1000ms;
+  opacity: 0;
+}
+
+@keyframes paragraph1 {
+  to {
+    opacity: 1;
+  }
+}
+/* Mobile Version */
+
+.desktop-nav .menu-icon {
+  display: none;
+}
+
+@media(max-width: 650px){
+  .wrapper {
+    padding: 0px;
+    width: auto;
+  }
+
+  .desktop-nav {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .hero-container .right {
+    display: none;
+  }
+
+  .desktop-nav .menu-items {
+    display: none;
+  }
+
+  .desktop-nav .menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 8px;
+    left: 536px;
+    top: 62px;
+
+  }
+  .warapper .desktop-nav .div-logo .logo {
+   background-image: url(./images/image_geometry_corner.png);
+   position: absolute;
+/*    width: 111px;
+   height: 74px;
+   left: 0px;
+   top: 0px; */
+  }
+}
