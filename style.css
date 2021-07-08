@@ -159,11 +159,6 @@ body {
 
 /* Menu animation */
 
-/* .desktop-nav {
-  animation: fadeDown 1000ms forwards;
-  opacity: 0;
-} */
-
 @keyframes fadeDown {
   from {
     opacity: 0;
