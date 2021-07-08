@@ -138,6 +138,9 @@ body {
   font-weight: normal;
   font-size: 50px;
   line-height: 100%;
+  animation: crossScreen 800ms forwards;
+  animation-delay: 800ms;
+  opacity: 0;
 }
 
 .hero-container .left p {
@@ -185,11 +188,11 @@ body {
   }
 }
 
-.hero-container .left h1 {
+/* .hero-container .left h1 {
   animation: crossScreen 800ms forwards;
   animation-delay: 800ms;
   opacity: 0;
-}
+} */
 
 @keyframes crossScreen {
   to {
