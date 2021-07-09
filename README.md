@@ -25,8 +25,6 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
 
 ## General requirements
 
