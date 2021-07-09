@@ -237,7 +237,7 @@ body {
     left: 536px;
     top: 62px;
   }
-  
+
   .desktop-nav .menu-items {
     display: none;
   }
@@ -260,7 +260,7 @@ body {
 
   .hero-container .left h1 {
     display: flex;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
@@ -277,7 +277,7 @@ body {
     line-height: 21px;
     letter-spacing: -0.01em;
     color: #1a2236;
-    }
+  }
 
   .hero-container .left .btn {
     display: flex;
