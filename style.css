@@ -28,7 +28,7 @@ body {
   width: 1440px;
   height: 1169px;
   background: #fff;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   box-sizing: border-box;
 }
 
@@ -37,10 +37,10 @@ body {
   position: absolute;
   width: 1440px;
   height: 100px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background: #fff;
-  box-shadow: 0px 0.5px 0px #dddfe6;
+  box-shadow: 0 0.5px 0 #dddfe6;
   animation: fadeDown 1000ms forwards;
   opacity: 0;
 }
@@ -116,7 +116,7 @@ body {
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-  }
+}
 
 .hero-container .left .btn {
   position: absolute;
@@ -132,7 +132,6 @@ body {
   height: 877px;
   left: 738px;
   top: 100px;
-  /* background: #c4c4c4; */
 }
 
 .right .image_dots {
@@ -175,11 +174,11 @@ body {
   }
 }
 
-.hero-container .paragraph p {
+/* .hero-container .paragraph p {
   animation: paragraph1 800ms forwards;
   animation-delay: 1000ms;
   opacity: 0;
-}
+} */
 
 @keyframes paragraph1 {
   to {
@@ -189,7 +188,7 @@ body {
 
 /* Mobile Version */
 
-  .desktop-nav .menu-icon {
+.desktop-nav .menu-icon {
   display: none;
 }
 
@@ -203,8 +202,8 @@ body {
     position: absolute;
     width: 111px;
     height: 74px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   .desktop-nav .div-logo .menu-icon {
@@ -220,7 +219,7 @@ body {
     width: 74px;
     height: 74px;
     right: 209px;
-    top: 0px;
+    top: 0;
     background: linear-gradient(0deg, #E35461, #E35461), url(./images/image_geometry_corner.png), #E45865;
     background-blend-mode: normal, overlay, normal;
   }
