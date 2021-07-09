@@ -25,6 +25,7 @@
   margin-left: 0;
   min-width: 200px;
   max-width: 320px;
+
   /* margin: auto; */
   background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
@@ -4328,7 +4329,8 @@
   margin-left: 0;
   min-width: 450px;
   max-width: 1440px;
-  margin: auto;
+
+  /* margin: auto; */
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(0, 0, 0, 1);
   box-sizing: border-box;
@@ -8783,10 +8785,11 @@
   left: 0;
   top: 0;
 }
+
 @media screen and (min-width: 0) and (max-width: 450px) {
   #q2 {
     display: block !important;
-    max-height: 4910px !important
+    max-height: 4910px !important;
   }
 }
 
@@ -8799,7 +8802,7 @@
 @media screen and (min-width: 450px) {
   #q189 {
     display: block !important;
-    max-height: 4852px !important
+    max-height: 4852px !important;
   }
 }
 
