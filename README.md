@@ -6,7 +6,8 @@
 - set up a new repository and prepare it for development using best practices (e.g. linters).
 - build the first 3 sections of the mobile website using the template you chose in the previous step
 
-![screenshot](./printScreen.png)
+![screenshot](images/printScreen.png)
+
 ## Learning objectives
 
 - Understand how to parse a Figma design to create a UI.
