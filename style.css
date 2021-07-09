@@ -192,13 +192,14 @@ body {
   display: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1024px) {
   .wrapper {
     padding: 0;
     width: auto;
   }
 
   .wrapper .desktop-nav {
+    display: flexbox;
     position: absolute;
     width: 111px;
     height: 74px;
