@@ -214,8 +214,8 @@ body {
     top: 19px;
   }
 
-  .desktop-nav .menu-icon {
-    background-image: url(./images/Rectangle\ 46.png);
+    .desktop-nav .menu-icon {
+    /* background-image: url(./images/ic_menu.png); */
     display: block;
     cursor: pointer;
     width: 24px;
