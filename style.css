@@ -197,11 +197,17 @@ body {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 650px) {
+  .hero-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .wrapper {
+    display: flex;
+    justify-content: center;
     padding: 0;
     width: auto;
-    position: relative;
     height: 1169px;
     background: #fff;
     border: 1px solid #000;
@@ -210,24 +216,25 @@ body {
 
   .wrapper .desktop-nav {
     display: flex;
-    position: absolute;
+    justify-content: center;
     width: 111px;
     height: 74px;
     left: 0;
     top: 0;
   }
 
-  .desktop-nav .div-logo .logo {
-    position: relative;
-    width: 74px;
-    height: 74px;
+  .hero-wrapper .desktop-nav .div-logo .logo {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
     right: 209px;
     top: 0;
-    background: linear-gradient(0deg, #e35461, #e35461), url(./images/image_geometry_corner.png), #e45865;
-    background-blend-mode: normal, overlay, normal;
   }
 
   .desktop-nav .div-logo .menu-icon {
+    /* display: flex; */
+    /* justify-content: space-between; */
     position: absolute;
     display: block;
     cursor: pointer;
@@ -258,6 +265,8 @@ body {
   }
 
   .hero-container {
+    /* display: flex; */
+    justify-content: space-between;
     position: absolute;
     width: 288px;
     height: 336px;
@@ -267,6 +276,8 @@ body {
 
   .hero-container .left h1 {
     display: flex;
+    /* display: flex; */
+    justify-content: space-between;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
@@ -276,7 +287,9 @@ body {
   }
 
   .hero-container .left .paragraph p {
+    /* display: flex; */
     display: flex;
+    justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -288,6 +301,8 @@ body {
 
   .hero-container .left .btn {
     display: flex;
+    /* display: flex; */
+    justify-content: space-between;
     left: 5%;
     right: 5%;
     top: 7.94%;
