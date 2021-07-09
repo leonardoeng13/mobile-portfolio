@@ -8,6 +8,8 @@
 
 ![screenshot](images/printScreen.PNG)
 
+[Live Demo Link](https://livedemo.com)
+
 ## Learning objectives
 
 - Understand how to parse a Figma design to create a UI.
