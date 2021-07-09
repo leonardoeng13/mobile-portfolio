@@ -208,13 +208,15 @@ body {
 
   .desktop-nav .div-logo .menu-icon {
     position: absolute;
+    display: block;
+    cursor: pointer;
     width: 20px;
     height: 2px;
     left: 284px;
     top: 19px;
   }
 
-    .desktop-nav .menu-icon {
+/*   .desktop-nav .menu-icon {
     /* background-image: url(./images/ic_menu.png); */
     display: block;
     cursor: pointer;
@@ -222,7 +224,7 @@ body {
     height: 8px;
     left: 536px;
     top: 62px;
-  }
+  } */
 
   .desktop-nav .div-logo .logo2 {
     position: relative;
