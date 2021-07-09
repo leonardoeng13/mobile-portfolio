@@ -25,7 +25,7 @@
   margin-left: 0;
   min-width: 200px;
   max-width: 320px;
-  margin: auto;
+  /* margin: auto; */
   background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
   display: block;
@@ -2692,7 +2692,6 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  text-align: justify;
   line-height: 21px;
 }
 
@@ -7185,7 +7184,6 @@
   color: rgba(26, 34, 54, 1);
   font-style: normal;
   font-family: 'Poppins', sans-serif;
-  text-align: justify;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -8785,14 +8783,14 @@
   left: 0;
   top: 0;
 }
-@media screen and (min-width: 0px) and (max-width: 450px) {
+@media screen and (min-width: 0) and (max-width: 450px) {
   #q2 {
-	display: block !important;
-	max-height: 4910px !important
+    display: block !important;
+    max-height: 4910px !important
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 450px) {
+@media screen and (min-width: 0) and (max-width: 450px) {
   #q189 {
     display: none !important;
   }
@@ -8810,4 +8808,3 @@
     display: none !important;
   }
 }
-      
