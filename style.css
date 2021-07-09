@@ -214,6 +214,16 @@ body {
     top: 19px;
   }
 
+  .desktop-nav .menu-icon {
+    background-image: url(./images/Rectangle\ 46.png);
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 8px;
+    left: 536px;
+    top: 62px;
+  }
+
   .desktop-nav .div-logo .logo2 {
     position: relative;
     width: 74px;
@@ -226,16 +236,6 @@ body {
 
   .hero-container .right {
     display: none;
-  }
-
-  .desktop-nav .menu-icon {
-    background-image: url(./images/Rectangle\ 46.png);
-    display: block;
-    cursor: pointer;
-    width: 24px;
-    height: 8px;
-    left: 536px;
-    top: 62px;
   }
 
   .desktop-nav .menu-items {
