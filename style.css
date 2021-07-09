@@ -33,6 +33,7 @@ body {
 }
 
 /* Header */
+
 .desktop-nav {
   position: absolute;
   width: 1440px;
@@ -192,19 +193,39 @@ body {
   display: none;
 }
 
+.desktop-nav .logo {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .wrapper {
+    position: absolute;
     padding: 0;
     width: auto;
+    position: relative;
+    height: 1169px;
+    background: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
   }
 
   .wrapper .desktop-nav {
-    display: flexbox;
+    display: flex;
     position: absolute;
     width: 111px;
     height: 74px;
     left: 0;
     top: 0;
+  }
+
+  .desktop-nav .div-logo .logo {
+    position: relative;
+    width: 74px;
+    height: 74px;
+    right: 209px;
+    top: 0;
+    background: linear-gradient(0deg, #e35461, #e35461), url(./images/image_geometry_corner.png), #e45865;
+    background-blend-mode: normal, overlay, normal;
   }
 
   .desktop-nav .div-logo .menu-icon {
@@ -217,16 +238,6 @@ body {
     top: 19px;
   }
 
-  .desktop-nav .div-logo .logo2 {
-    position: relative;
-    width: 74px;
-    height: 74px;
-    right: 209px;
-    top: 0;
-    background: linear-gradient(0deg, #e35461, #e35461), url(./images/image_geometry_corner.png), #e45865;
-    background-blend-mode: normal, overlay, normal;
-  }
-
   .hero-container .right {
     display: none;
   }
@@ -236,6 +247,10 @@ body {
   }
 
   .hero-container .left h3 {
+    display: none;
+  }
+
+  .right .hero-bg {
     display: none;
   }
 
