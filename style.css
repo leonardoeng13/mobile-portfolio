@@ -199,7 +199,6 @@ body {
 
 @media (max-width: 1024px) {
   .wrapper {
-    position: absolute;
     padding: 0;
     width: auto;
     position: relative;
