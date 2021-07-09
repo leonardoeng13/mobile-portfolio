@@ -224,32 +224,6 @@ body {
     background: linear-gradient(0deg, #E35461, #E35461), url(./images/image_geometry_corner.png), #E45865;
     background-blend-mode: normal, overlay, normal;
   }
-/*   .desktop-nav .div-logo .logo{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    right: 246px;
-    top: 0px;
-    background: linear-gradient(0deg, #FEC25A, #FEC25A), url(./images/Shape1.png), #98DEDE;
-    background-blend-mode: normal, overlay, normal;
-  } */
-/*     position: absolute;
-    width: 74px;
-    height: 74px;
-    right: 246px;
-    top: 0px;
-    background: linear-gradient(0deg, #FEC25A, #FEC25A), url(./images/Shape1.png), #98DEDE;
-    background-blend-mode: normal, overlay, normal */;
-  }
-
-/*  .desktop-nav .menu-icon {
-    position: absolute;
-    width: 20px;
-    height: 14px;
-    left: 284px;
-    top: 19px;
-    background: #1a2236;
-  } */
 
   .hero-container .right {
     display: none;
@@ -313,3 +287,4 @@ body {
     top: 7.94%;
     bottom: 91.04%;
   }
+}
