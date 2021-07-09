@@ -4356,7 +4356,7 @@
   margin-bottom: 4750px;
   min-height: 100px;
   background-color: rgba(255, 255, 255, 1);
-  filter: drop-shadow(0px 0.5px 0px rgba(221, 223, 230, 1));
+  filter: drop-shadow(0 0.5px 0 rgba(221, 223, 230, 1));
 }
 
 .outer_q190 {
@@ -8787,24 +8787,25 @@
 }
 @media screen and (min-width: 0px) and (max-width: 450px) {
   #q2 {
-	display: block !important; 
+	display: block !important;
 	max-height: 4910px !important
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #q189 {display: none !important;
+  #q189 {
+    display: none !important;
   }
 }
 
 @media screen and (min-width: 450px) {
   #q189 {
-    display: block !important; 
-	max-height: 4852px !important
+    display: block !important;
+    max-height: 4852px !important
   }
 }
 
-@media screen and (min-width: 450px)  {
+@media screen and (min-width: 450px) {
   #q2 {
     display: none !important;
   }
