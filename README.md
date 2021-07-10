@@ -8,7 +8,7 @@
 
 ![screenshot](images/printScreen.PNG)
 
-[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/)
+[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/index.html)
 
 ## Learning objectives
 
