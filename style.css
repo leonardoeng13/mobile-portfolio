@@ -73,7 +73,6 @@
 }
 
 .outer_q4 {
-  cursor: pointer;
   position: relative;
   display: flex;
   pointer-events: none;
@@ -8792,77 +8791,11 @@
     display: block !important;
     max-height: 4910px !important;
   }
-
-  .mobile-nav {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    background-image: url("/images/menu-mobile.png");
-    right: 0;
-    z-index: 200;
-    opacity: 0;
-    pointer-events: none;
-    top: -100%;
-  }
-
-  .mobile-nav.active {
-    opacity: 1;
-    pointer-events: auto;
-    top: 0;
-  }
-
-  .mobile-nav .menu-items {
-    list-style: none;
-    padding: 0;
-  }
-
-  .mobile-nav .menu-items li {
-    margin: 20px 0;
-  }
-
-  .mobile-nav .menu-items li a {
-    color: #1a2236;
-    text-decoration: none;
-  }
 }
 
 @media screen and (min-width: 0) and (max-width: 450px) {
   #q189 {
     display: none !important;
-  }
-
-  .mobile-nav {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    background-image: url("/images/menu-mobile.png");
-    right: 0;
-    z-index: 200;
-    opacity: 0;
-    pointer-events: none;
-    top: -100%;
-  }
-
-  .mobile-nav .menu-items {
-    list-style: none;
-    padding: 0;
-  }
-
-  .mobile-nav .menu-items li {
-    margin: 20px 0;
-  }
-
-  .mobile-nav .menu-items li a {
-    color: #1a2236;
-    text-decoration: none;
   }
 }
 
@@ -8871,70 +8804,10 @@
     display: block !important;
     max-height: 4852px !important;
   }
-
-  .mobile-nav {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    background-image: url("menu-mobile.png");
-    right: 0;
-    z-index: 200;
-    opacity: 0;
-    pointer-events: none;
-    top: -100%;
-  }
-
-  .mobile-nav .menu-items {
-    list-style: none;
-    padding: 0;
-  }
-
-  .mobile-nav .menu-items li {
-    margin: 20px 0;
-  }
-
-  .mobile-nav .menu-items li a {
-    color: #1a2236;
-    text-decoration: none;
-  }
 }
 
 @media screen and (min-width: 450px) {
   #q2 {
     display: none !important;
-  }
-
-  .mobile-nav {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    background-image: url("/images/menu-mobile.png");
-    right: 0;
-    z-index: 200;
-    opacity: 0;
-    pointer-events: none;
-    top: -100%;
-  }
-
-  .mobile-nav .menu-items {
-    list-style: none;
-    padding: 0;
-  }
-
-  .mobile-nav .menu-items li {
-    margin: 20px 0;
-  }
-
-  .mobile-nav .menu-items li a {
-    color: #1a2236;
-    text-decoration: none;
   }
 }
