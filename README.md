@@ -8,7 +8,7 @@
 
 ![screenshot](images/printScreen.PNG)
 
-[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/)
+[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/index.html)
 
 ## Learning objectives
 
@@ -24,8 +24,6 @@
 - Technologies used: VS Code, Linter, HTML, CSS
 
 ## Live Demo
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## General requirements
