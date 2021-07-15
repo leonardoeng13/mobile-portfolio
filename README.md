@@ -67,8 +67,6 @@ Remind me about the big picture of this project.
 - Twitter: [@Leo de Andrade](https://twitter.com/andrade_leo)
 - LinkedIn: [Leonardo de Andrade](https://linkedin.com/in/leonardodeandrade)
 
-👤 **Author2**
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
